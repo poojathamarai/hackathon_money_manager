@@ -1,0 +1,37 @@
+[
+    { "date":9, 
+    "month":"January",
+    "year":2021, 
+    "data":"shopping", 
+    "amount": 40 
+    },
+    { "date":25, 
+     "month":"January",
+     "year":2021, 
+     "data": "holiday", 
+     "amount": 400 
+    },
+    {  "date":24, 
+        "month":"January",
+        "year":2021,
+        "data": "car service",
+         "amount": 50 
+    }
+]
+
+[
+    {  
+        "date":1,
+        "month":"January",
+        "year":2021,
+        "amount":8000,
+        "data":"Salary"
+    },
+    {
+        "date":15,
+        "month":"January",
+        "year":2021,
+      "amount":5000,
+      "data":"Investments"
+    }
+  ]
