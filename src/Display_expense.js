@@ -4,8 +4,7 @@ export function DisplayExpense() {
 
     const [expenselist,setExpenseList]=useState([])
     const getexpense=()=>{
-        fetch(`https://61e81129e32cd90017acbfe1.mockapi.io/expense`,{method:"GET"}).
-        then((data)=>data.json()).then((obj)=>setExpenseList(obj))
+        fetch(`https://61e81129e32cd90017acbfe1.mockapi.io/expense`,{method:"GET"}).then((data)=>data.json()).then((obj)=>setExpenseList(obj))
       }
         useEffect(getexpense,[]);
    
