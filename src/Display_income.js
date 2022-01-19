@@ -3,8 +3,7 @@ import { useState,useEffect} from 'react';
 export function DisplayIncome() {
   const [incomelist,setIncomeList]=useState([])
     const getincome=()=>{
-        fetch(`https://61e81129e32cd90017acbfe1.mockapi.io/income`,{method:"GET"}).
-        then((data)=>data.json()).then((obj)=>setIncomeList(obj))
+        fetch(`https://61e81129e32cd90017acbfe1.mockapi.io/income`,{method:"GET"}).then((data)=>data.json()).then((obj)=>setIncomeList(obj))
       }
         useEffect(getincome,[]);
   return (
